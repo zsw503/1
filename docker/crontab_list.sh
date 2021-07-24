@@ -5,5 +5,5 @@
 
 ##############活动##############
 #京东领现金兑换红包
-0 0 * * * node /scripts/cash_exchange.js >> /scripts/logs/cash_exchange.log 2>&1
 0 0 * * * node /scripts/jd_cash_exchange.js >> /scripts/logs/jd_cash_exchange.log 2>&1
+0 0 * * * node /scripts/jd_cash_exchange1.js >> /scripts/logs/jd_cash_exchange1.log 2>&1
